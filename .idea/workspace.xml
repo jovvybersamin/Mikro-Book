@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fab5ae3-292b-4d5f-add6-96f29b8a3888" name="Default" comment="" />
+    <ignored path="larabook.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="larabook" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="nav.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/nav.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="115" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.54503816" vertical-offset="259" max-vertical-offset="1764">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/app.php" />
+        <option value="$PROJECT_DIR$/app/controllers/RegistrationController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/app/views/pages/home.blade.php" />
+        <option value="$PROJECT_DIR$/app/tests/fixture.yml" />
+        <option value="$PROJECT_DIR$/app/tests/fixtures.yml" />
+        <option value="$PROJECT_DIR$/app/views/sessions/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Forms/SingInForm.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Forms/SignInForm.php" />
+        <option value="$PROJECT_DIR$/tests/functional/SignInCept.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/app/views/registration/create.blade.php" />
+        <option value="$PROJECT_DIR$/tests/functional/SignUpCept.php" />
+        <option value="$PROJECT_DIR$/app/controllers/SessionController.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_07_114122_create_statuses_table.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_07_114515_create_statuses_table.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/Events/StatusWasPublished.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/PublishStatusCommand.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/PublishStatusCommandHandler.php" />
+        <option value="$PROJECT_DIR$/tests/fixtures.yml" />
+        <option value="$PROJECT_DIR$/app/Larabook/Forms/PublishStatusForm.php" />
+        <option value="$PROJECT_DIR$/tests/_output/PostStatusCept.fail.html" />
+        <option value="$PROJECT_DIR$/tests/_support/FunctionalHelper.php" />
+        <option value="$PROJECT_DIR$/tests/functional/PostStatusCept.php" />
+        <option value="$PROJECT_DIR$/app/controllers/StatusController.php" />
+        <option value="$PROJECT_DIR$/tests/_support/IntegrationHelper.php" />
+        <option value="$PROJECT_DIR$/tests/integration.suite.yml" />
+        <option value="$PROJECT_DIR$/tests/integration/StatusRepositoryTest.php" />
+        <option value="$PROJECT_DIR$/tests/integration/Statuses/StatusRepositoryTest.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php" />
+        <option value="$PROJECT_DIR$/app/Mikro/Presenter/Exception/PresenterException.php" />
+        <option value="$PROJECT_DIR$/app/Mikro/Presenter/Contracts/PresenterInterface.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Mikro/Presenter/PresenterTrait.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/Presenter/StatusPresenter.php" />
+        <option value="$PROJECT_DIR$/app/Mikro/Presenter/Presenter.php" />
+        <option value="$PROJECT_DIR$/app/config/workbench.php" />
+        <option value="$PROJECT_DIR$/workbench/mikro/presenter/src/Mikro/Presenter/Contracts/PresenterInterface.php" />
+        <option value="$PROJECT_DIR$/workbench/mikro/presenter/phpspec.yml" />
+        <option value="$PROJECT_DIR$/workbench/mikro/presenter/composer.json" />
+        <option value="$PROJECT_DIR$/workbench/mikro/presenter/spec/Mikro/Presenter/PresenterTraitSpec.php" />
+        <option value="$PROJECT_DIR$/workbench/mikro/presenter/src/Mikro/Presenter/PresenterTrait.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Users/StatusPresenter.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Users/User.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Statuses/Status.php" />
+        <option value="$PROJECT_DIR$/app/views/statuses/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Larabook/Users/UserPresenter.php" />
+        <option value="$PROJECT_DIR$/app/assets/sass/main.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/nav.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="30" />
+    <option name="width" value="1382" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="larabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.tabs" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="&#10;use" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mikro\code\larabook\workbench\mikro\presenter\src\Mikro\Presenter" />
+      <recent name="C:\Users\Mikro\code\larabook\app\Mikro\Presenter" />
+      <recent name="C:\Users\Mikro\code\larabook\tests\integration\Statuses" />
+      <recent name="C:\Users\Mikro\code\larabook\tests\integration" />
+      <recent name="C:\Users\Mikro\code\larabook\app\Larabook\Users" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fab5ae3-292b-4d5f-add6-96f29b8a3888" name="Default" comment="" />
+      <created>1412434285559</created>
+      <updated>1412434285559</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="30" width="1382" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.49928057" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22474378" sideWeight="0.5007194" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="60" y="133" width="1182" height="554" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Larabook/Users/User.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Users/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/PublishStatusCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="764" selection-end="764" vertical-scroll-proportion="0.497006" vertical-offset="564" max-vertical-offset="1232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/PublishStatusCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.5868263" vertical-offset="252" max-vertical-offset="924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Registration/RegisterUserCommandHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="747" selection-end="747" vertical-scroll-proportion="0.502994" vertical-offset="616" max-vertical-offset="1316" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Registration/RegisterUserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.5508982" vertical-offset="368" max-vertical-offset="1036" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Forms/RegistrationForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="33" selection-end="359" vertical-scroll-proportion="0.08383234" vertical-offset="0" max-vertical-offset="700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/Global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/start/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Forms/PublishStatusForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.6706587" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_output/PostStatusCept.fail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="2811" selection-end="2811" vertical-scroll-proportion="2.2656488" vertical-offset="840" max-vertical-offset="2856" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/FunctionalHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.5129771" vertical-offset="644" max-vertical-offset="1456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/PostStatusCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="265" selection-end="265" vertical-scroll-proportion="0.5868263" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_support/IntegrationHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="205" selection-end="205" vertical-scroll-proportion="0.33532935" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/FunctionalTester.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.5648854" vertical-offset="1680" max-vertical-offset="73528" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/fixtures.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.251497" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.08383234" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.08383234" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeception.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="999" selection-end="999" vertical-scroll-proportion="0.79640716" vertical-offset="0" max-vertical-offset="1960" />
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/vendor/codeception/codeception/package/codecept.phar/src/Codeception/Lib/Actor/Shared/Friend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="169" selection-end="169" vertical-scroll-proportion="0.41317365" vertical-offset="4" max-vertical-offset="672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/IntegrationTester.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="48" selection-start="725" selection-end="725" vertical-scroll-proportion="0.29923666" vertical-offset="420" max-vertical-offset="56224" />
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/vendor/codeception/codeception/package/codecept.phar/src/Codeception/Actor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="129" selection-end="129" vertical-scroll-proportion="0.251497" vertical-offset="0" max-vertical-offset="1540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bin/codecept">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="81" selection-end="81" vertical-scroll-proportion="0.1257485" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/vendor/codeception/codeception/package/codecept.phar/src/Codeception/TestCase/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.12824428" vertical-offset="0" max-vertical-offset="2464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration/Statuses/StatusRepositoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1720" selection-end="1720" vertical-scroll-proportion="0.497006" vertical-offset="1544" max-vertical-offset="2212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="279" selection-end="279" vertical-scroll-proportion="0.04191617" vertical-offset="252" max-vertical-offset="1484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="1.3832335" vertical-offset="0" max-vertical-offset="1120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/workbench.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="915" selection-end="915" vertical-scroll-proportion="0.6227545" vertical-offset="368" max-vertical-offset="1036" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/src/Mikro/Presenter/Exception/PresenterException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="46" selection-start="91" selection-end="91" vertical-scroll-proportion="0.1257485" vertical-offset="0" max-vertical-offset="668" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/src/Mikro/Presenter/Contracts/PresenterInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="112" selection-end="112" vertical-scroll-proportion="0.28323698" vertical-offset="0" max-vertical-offset="692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/phpspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="83" selection-end="83" vertical-scroll-proportion="0.1618497" vertical-offset="0" max-vertical-offset="692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="19" selection-start="409" selection-end="409" vertical-scroll-proportion="0.35260117" vertical-offset="232" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/spec/Mikro/Presenter/PresenterTraitSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="39" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.6696165" vertical-offset="806" max-vertical-offset="1484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.17151608" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/StatusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="61" selection-start="957" selection-end="957" vertical-scroll-proportion="0.08421053" vertical-offset="1008" max-vertical-offset="3500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/src/Mikro/Presenter/Presenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="1.3303835" vertical-offset="78" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="15" selection-start="116" selection-end="116" vertical-scroll-proportion="0.38591117" vertical-offset="0" max-vertical-offset="653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench/mikro/presenter/src/Mikro/Presenter/PresenterTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="1.0825958" vertical-offset="50" max-vertical-offset="980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Users/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.7935103" vertical-offset="470" max-vertical-offset="2296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/Status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="20" selection-start="755" selection-end="755" vertical-scroll-proportion="0.37168142" vertical-offset="756" max-vertical-offset="1848" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Statuses/Presenter/StatusPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="58" selection-start="220" selection-end="220" vertical-scroll-proportion="0.25663716" vertical-offset="134" max-vertical-offset="812">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Larabook/Users/UserPresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.53687316" vertical-offset="0" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/statuses/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="132" selection-start="655" selection-end="768" vertical-scroll-proportion="0.4631579" vertical-offset="392" max-vertical-offset="1372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.5781711" vertical-offset="0" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.16519174" vertical-offset="0" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="96" selection-end="178" vertical-scroll-proportion="0.33038348" vertical-offset="0" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="115" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.54503816" vertical-offset="259" max-vertical-offset="1764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
