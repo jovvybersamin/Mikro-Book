@@ -17,7 +17,7 @@ $I->click('OtherUser');
 
 $I->seeCurrentUrlEquals('/@OtherUser');
 
-$I->click('Follow');
+$I->click('Follow OtherUser');
 
 $I->seeCurrentUrlEquals('/@OtherUser');
 
