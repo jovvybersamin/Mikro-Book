@@ -40,16 +40,20 @@ class SessionController extends \BaseController {
     public function store()
     {
         $formData = Input::only('email','password');
+
         $this->signInForm->validate($formData);
 
-        if (Auth::attempt($formData))
+        if (! Auth::attempt($formData))
         {
-            Flash::message('Welcome back!');
-            // redirect to statuses
-            return Redirect::intended('statuses');
+            Flash::error('We were unable to sign you in. Please check your credentials and try again.');
+
+            return Redirect::back()->withInput();
+
         }
 
-        return Redirect::to('login')->withInput();
+        Flash::message('Welcome back!');
+            // redirect to statuses
+        return Redirect::intended('statuses');
     }
 
     /**

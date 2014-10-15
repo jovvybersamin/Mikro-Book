@@ -7,10 +7,15 @@ use Mikro\Presenter\Presenter;
 class StatusPresenter extends Presenter {
 
 
-    public function createdAt()
-    {
-        return $this->entity->created_at->format('Y-m-d');
-    }
+    /**
+     * Display how long its been since the published date.
+     *
+     * @return mixed
+     */
+    public function timeSincePublished()
+   {
+       return $this->created_at->diffForHumans();
+   }
 
     /**
      * @return string
@@ -19,6 +24,7 @@ class StatusPresenter extends Presenter {
     {
         return ucwords($this->entity->body);
     }
+
 
 
 } 

@@ -1,9 +1,23 @@
 <?php
 
+
+/**
+ *
+ */
 Event::listen('Larabook.Registration.Events.UserRegistered',function($event)
 {
    // dd('send a notification email.');
 });
+
+// Elequent Debugger
+
+Event::listen('illuminate.query',function($query)
+{
+   // echo '<pre>' , print_r($query,1) , '</pre>';
+});
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +29,11 @@ Event::listen('Larabook.Registration.Events.UserRegistered',function($event)
 | and give it the Closure to execute when that URI is requested.
 |
 */
+
+Route::get('test',function() use ($app)
+{
+   dd($app['files']->get(__DIR__ . '/../.env.php'));
+});
 
 Route::get('/',[
 	'as'	=>	'home',
@@ -67,3 +86,19 @@ Route::post('statuses',[
     'as' => 'statuses_path',
     'uses' => 'StatusController@store'
 ]);
+
+/**
+ * Users
+ */
+
+Route::get('users',[
+    'as' => 'users_path',
+    'uses' => 'UsersController@index'
+]);
+
+Route::get('@{username}',[
+    'as' => 'profile_path',
+    'uses' => 'UsersController@show'
+]);
+
+
