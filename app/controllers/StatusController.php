@@ -1,13 +1,14 @@
 <?php
 
+
+
 use Larabook\Statuses\StatusRepository;
 use Larabook\Statuses\PublishStatusCommand;
 use Larabook\Forms\PublishStatusForm;
-use Laracasts\Commander\CommanderTrait;
+
 
 class StatusController extends \BaseController {
 
-    use CommanderTrait;
 
     /**
      * @var StatusRepository
