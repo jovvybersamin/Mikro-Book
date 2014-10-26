@@ -1,36 +1,32 @@
 <?php namespace Larabook\Users;
 
-
 use Laracasts\Commander\CommandHandler;
 
-class FollowUserCommandHandler implements CommandHandler {
+class UnfollowUserCommandHandler implements CommandHandler {
+
 
     /**
-     * @var
+     * @var UserRepository
      */
     private $userRepository;
 
-    /**
-     * @param UserRepository $userRepository
-     */
     function __construct(UserRepository $userRepository)
     {
         $this->userRepository = $userRepository;
     }
 
+
     /**
-     * Handle the command
+     * Handle the command.
      *
-     * @param $command
-     * @return mixed
+     * @param object $command
+     * @return void
      */
     public function handle($command)
     {
         $user = $this->userRepository->findById($command->userId);
 
-        $this->userRepository->follow($command->userIdToFollow,$user);
-
-        return $user;
+        $this->userRepository->unfollow($command->userIdToUnfollow,$user);
     }
 
-} 
+}

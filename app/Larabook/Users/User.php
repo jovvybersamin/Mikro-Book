@@ -4,7 +4,8 @@ use Illuminate\Auth\UserTrait;
 use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\Reminders\RemindableInterface;
-use Larabook\Registration\Events\UserRegistered;
+use Larabook\Registration\Events\UserHasRegistered;
+use Larabook\Statuses\Status;
 use Laracasts\Commander\Events\EventGenerator;
 use Illuminate\Support\Facades\Hash;
 use Mikro\Presenter\Contracts\PresenterInterface;
@@ -12,7 +13,7 @@ use Mikro\Presenter\PresenterTrait;
 
 class User extends \Eloquent implements UserInterface, RemindableInterface, PresenterInterface {
 
-	use UserTrait, RemindableTrait, EventGenerator, PresenterTrait;
+	use UserTrait, RemindableTrait, EventGenerator, PresenterTrait, FollowableTrait;
 
 	/**
 	 * Which fields may be mass assigned
@@ -61,8 +62,12 @@ class User extends \Eloquent implements UserInterface, RemindableInterface, Pres
      */
     public function statuses()
     {
-       return $this->hasMany('Larabook\Statuses\Status');
+       return $this->hasMany(Status::class);
     }
+
+
+
+
 
     /**
      * Register new user
@@ -76,7 +81,7 @@ class User extends \Eloquent implements UserInterface, RemindableInterface, Pres
     {
         $user = new static(compact('username','email','password'));
 
-        $user->raise(new UserRegistered($user));
+        $user->raise(new UserHasRegistered($user));
 
         return $user;
     }
@@ -93,5 +98,6 @@ class User extends \Eloquent implements UserInterface, RemindableInterface, Pres
 
         return ($this->username == $user->username);
     }
+
 
 }

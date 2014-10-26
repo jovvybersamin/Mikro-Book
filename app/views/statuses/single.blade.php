@@ -4,8 +4,10 @@
         </div>
 
         <div class="media-body">
-            <h4 class="media-heading"> {{ $status->user->username }} </h4>
-            <p> {{ $status->presents()->timeSincePublished() }} </p>
+            <h4 class="media-heading">
+                {{ link_to_route('profile_path',$status->user->username) }}
+            </h4>
+            <p>{{ $status->presents()->timeSincePublished() }}</p>
 
             {{ $status->body }}
 

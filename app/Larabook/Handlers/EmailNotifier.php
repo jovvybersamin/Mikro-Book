@@ -1,14 +1,33 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Mikro
- * Date: 10/26/2014
- * Time: 9:51 PM
- */
-
-namespace Larabook\Handlers;
+<?php namespace Larabook\Handlers;
 
 
-class EmailNotifier {
+use Larabook\Mailers\UserMailer;
+use Larabook\Registration\Events\UserHasRegistered;
+use Laracasts\Commander\Events\EventListener;
+
+class EmailNotifier extends EventListener{
+
+
+    /**
+     * @var UserMailer
+     */
+    private $mailer;
+
+    /**
+     * @param UserMailer $mailer
+     */
+    function __construct(UserMailer $mailer)
+    {
+        $this->mailer = $mailer;
+    }
+
+
+    /**
+     * @param UserHasRegistered $event
+     */
+    public function whenUserHasRegistered(UserHasRegistered $event)
+    {
+        $this->mailer->sendWelcomeMessageTo($event->user);
+    }
 
 } 

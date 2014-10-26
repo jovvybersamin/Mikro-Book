@@ -41,6 +41,42 @@ class UserRepository {
             }])->whereUsername($username)->first();
     }
 
+    /**
+     * Find a user by its id.
+     *
+     * @param $userId
+     * @return mixed
+     */
+    public function findById($userId)
+    {
+        return User::findOrFail($userId);
+    }
 
+    /**
+     * Follow a Larabook user.
+     *
+     * @param $userIdToFollow
+     * @param User $user
+     * @return mixed
+     */
+    public function follow($userIdToFollow, User $user)
+    {
+       return $user->followedUser()->attach($userIdToFollow);
+    }
+
+
+    /**
+     * Unfollow a Larabook user.
+     *
+     * @param $userIdToUnFollow
+     * @param User $user
+     * @return mixed
+     */
+
+    public function unfollow($userIdToUnFollow, User $user)
+    {
+
+        return $user->followedUser()->detach($userIdToUnFollow);
+    }
 
 }

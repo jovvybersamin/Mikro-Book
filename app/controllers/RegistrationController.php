@@ -41,7 +41,6 @@ class RegistrationController extends \BaseController {
 		Auth::login($user);
 
         Flash::message('Welcome aboard');
-
 		return Redirect::home();
 	}
 

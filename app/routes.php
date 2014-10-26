@@ -2,11 +2,11 @@
 
 
 /**
- *
+ * Send a notification email to the new registered user.
  */
-Event::listen('Larabook.Registration.Events.UserRegistered',function($event)
+Event::listen('Larabook.Registration.Events.UserHasRegistered',function($event)
 {
-   // dd('send a notification email.');
+   // dd('Welcome aboard new registered user.');
 });
 
 // Elequent Debugger
@@ -30,10 +30,7 @@ Event::listen('illuminate.query',function($query)
 |
 */
 
-Route::get('test',function() use ($app)
-{
-   dd($app['files']->get(__DIR__ . '/../.env.php'));
-});
+
 
 Route::get('/',[
 	'as'	=>	'home',
@@ -111,7 +108,13 @@ Route::post('follows',[
 ]);
 
 Route::delete('follows/{id}',[
-    'as' => 'follows_path',
+    'as' => 'follow_path',
     'uses' => 'FollowsController@destroy'
 ]);
+
+
+Route::get('test',function()
+{
+    return '</br> what the fuck.!';
+});
 
