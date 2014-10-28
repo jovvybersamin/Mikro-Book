@@ -113,8 +113,7 @@ Route::delete('follows/{id}',[
 ]);
 
 
-Route::get('test',function()
-{
-    return '</br> what the fuck.!';
-});
+Route::controller('password','RemindersController');
+
+
 
