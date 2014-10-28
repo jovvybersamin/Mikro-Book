@@ -37,6 +37,15 @@
 			type="text/javascript" 
 			src="//blog.app:8000/bower_components/bootstrap/dist/js/bootstrap.min.js">
 		</script>
+
+		<script type="text/javascript">
+		    $('.comments__create-form').on('keydown',function(e){
+                if (e.keyCode === 13) {
+                    e.preventDefault();
+                    $(this).submit();
+                }
+		    });
+		</script>
 	</body>
 
 </html>

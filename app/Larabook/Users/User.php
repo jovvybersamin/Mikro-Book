@@ -65,7 +65,13 @@ class User extends \Eloquent implements UserInterface, RemindableInterface, Pres
        return $this->hasMany(Status::class);
     }
 
-
+    /**
+     * @return mixed
+     */
+    public function comments()
+    {
+        return $this->hasMany('Larabook\Statuses\Comment');
+    }
 
 
 

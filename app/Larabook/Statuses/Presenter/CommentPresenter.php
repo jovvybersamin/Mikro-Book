@@ -1,14 +1,13 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Mikro
- * Date: 10/28/2014
- * Time: 9:29 PM
- */
-
-namespace Larabook\Statuses\Presenter;
+<?php namespace Larabook\Statuses\Presenter;
 
 
-class CommentPresenter {
+use Mikro\Presenter\Presenter;
+
+class CommentPresenter extends Presenter{
+
+    public function timeSinceCommented()
+    {
+        return $this->created_at->diffForHumans();
+    }
 
 } 

@@ -62,7 +62,8 @@
         background: #2790b1; }
 
 .comments {
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  padding: 20px; }
 
 .comments__comment {
   background: #f2f2f2;

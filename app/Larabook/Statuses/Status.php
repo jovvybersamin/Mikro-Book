@@ -34,6 +34,15 @@ class Status extends \Eloquent implements PresenterInterface{
     }
 
     /**
+     * @return mixed
+     */
+    public function comments()
+    {
+        return $this->hasMany('Larabook\Statuses\Comment');
+    }
+
+    /**
+     *
      * @return array
      */
     public function getDates()
